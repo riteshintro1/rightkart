@@ -3362,6 +3362,13 @@ cache-base@^1.0.1:
     union-value "^1.0.0"
     unset-value "^1.0.0"
 
+cache@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/cache/-/cache-2.3.1.tgz#78334a30b2c9daca2d10abbe8f9a0b610ddf91ba"
+  integrity sha512-FR/0U9GMDAq4ERSom2ThoiXz89BlhCSftDOBUgFSBTw0Kh+zBXbDan/DMzh2pP3lDqmOatruG0NqUkeXQqaNKQ==
+  dependencies:
+    ds "^1.4.2"
+
 call-bind@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/call-bind/-/call-bind-1.0.0.tgz#24127054bb3f9bdcb4b1fb82418186072f77b8ce"
@@ -3704,6 +3711,11 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   integrity sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==
   dependencies:
     delayed-stream "~1.0.0"
+
+comerr@0.0.x:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/comerr/-/comerr-0.0.9.tgz#0bdf8e3f9f6099e8313fa1c0fa6e0931999abce2"
+  integrity sha1-C9+OP59gmegxP6HA+m4JMZmavOI=
 
 commander@^2.20.0:
   version "2.20.3"
@@ -4596,6 +4608,11 @@ dotenv@8.2.0:
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
   integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
+
+ds@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/ds/-/ds-1.4.2.tgz#0857aa213790a4fb3abb365b9cec0e9ba8569393"
+  integrity sha1-CFeqITeQpPs6uzZbnOwOm6hWk5M=
 
 duplexer@^0.1.1:
   version "0.1.2"
@@ -10756,6 +10773,11 @@ side-channel@^1.0.2, side-channel@^1.0.3:
     es-abstract "^1.18.0-next.0"
     object-inspect "^1.8.0"
 
+sift@0.0.x:
+  version "0.0.18"
+  resolved "https://registry.yarnpkg.com/sift/-/sift-0.0.18.tgz#1d5f39735e24b46543d806d274c8197fd92c54a4"
+  integrity sha1-HV85c14ktGVD2AbSdMgZf9ksVKQ=
+
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
@@ -11260,6 +11282,11 @@ strip-json-comments@^3.1.0, strip-json-comments@^3.1.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-3.1.1.tgz#31f1281b3832630434831c310c01cccda8cbe006"
   integrity sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
 
+structr@0.2.x:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/structr/-/structr-0.2.4.tgz#8a15aab501bc59333fb1d529721be89f1bc3dc93"
+  integrity sha1-ihWqtQG8WTM/sdUpchvonxvD3JM=
+
 style-loader@1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-1.3.0.tgz#828b4a3b3b7e7aa5847ce7bae9e874512114249e"
@@ -11551,6 +11578,11 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     extend-shallow "^3.0.2"
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
+
+toarray@0.0.x:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/toarray/-/toarray-0.0.1.tgz#a115430a84a4be91b2746f62b9e07c83a3fb8c45"
+  integrity sha1-oRVDCoSkvpGydG9iueB8g6P7jEU=
 
 toidentifier@1.0.0:
   version "1.0.0"
@@ -11934,6 +11966,11 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
+validator@~0.4.13:
+  version "0.4.28"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-0.4.28.tgz#311d439ae6cf3fbe6f85da6ebaccd0c7007986f4"
+  integrity sha1-MR1DmubPP75vhdpuuszQxwB5hvQ=
+
 value-equal@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/value-equal/-/value-equal-1.0.1.tgz#1e0b794c734c5c0cade179c437d356d931a34d6c"
@@ -11948,6 +11985,17 @@ vendors@^1.0.0:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.4.tgz#e2b800a53e7a29b93506c3cf41100d16c4c4ad8e"
   integrity sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==
+
+verify@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/verify/-/verify-0.1.2.tgz#fa3e825eb7d71a912d73486fa2842ef828430690"
+  integrity sha1-+j6CXrfXGpEtc0hvooQu+ChDBpA=
+  dependencies:
+    comerr "0.0.x"
+    sift "0.0.x"
+    structr "0.2.x"
+    toarray "0.0.x"
+    validator "~0.4.13"
 
 verror@1.10.0:
   version "1.10.0"
